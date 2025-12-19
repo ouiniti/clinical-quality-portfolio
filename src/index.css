@@ -1,6 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-sage-50: #F8FAF8;
+  --color-sage-100: #ECF4EC;
+  --color-sage-500: #10B981;
+  --color-sage-600: #059669;
+  --color-light-gray: #F8FAF8;
+
+  --font-sans: Inter, sans-serif;
+
+  --radius-2xl: 1rem;
+}
 
 @layer base {
   body {
